@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6C572602BC5B9D00021D0DD /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C5725F2BC5B9D00021D0DD /* CharacterView.swift */; };
+		A6C572622BC5B9DD0021D0DD /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C572612BC5B9DD0021D0DD /* GridView.swift */; };
+		A6C572642BC5BA240021D0DD /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C572632BC5BA240021D0DD /* CharacterViewModel.swift */; };
+		A6C572672BC5BA3D0021D0DD /* CharacterOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C572662BC5BA3D0021D0DD /* CharacterOption.swift */; };
+		A6C572692BC5BA4C0021D0DD /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C572682BC5BA4C0021D0DD /* Category.swift */; };
 		A6D9950C2BC2FA5E00F70C65 /* VoidPrincessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D9950B2BC2FA5E00F70C65 /* VoidPrincessApp.swift */; };
 		A6D9950E2BC2FA5E00F70C65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D9950D2BC2FA5E00F70C65 /* ContentView.swift */; };
 		A6D995102BC2FA5F00F70C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6D9950F2BC2FA5F00F70C65 /* Assets.xcassets */; };
@@ -14,6 +19,10 @@
 		A6D9951D2BC2FA6000F70C65 /* VoidPrincessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D9951C2BC2FA6000F70C65 /* VoidPrincessTests.swift */; };
 		A6D995272BC2FA6000F70C65 /* VoidPrincessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D995262BC2FA6000F70C65 /* VoidPrincessUITests.swift */; };
 		A6D995292BC2FA6000F70C65 /* VoidPrincessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D995282BC2FA6000F70C65 /* VoidPrincessUITestsLaunchTests.swift */; };
+		A6D995392BC3103200F70C65 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D995352BC3103200F70C65 /* MenuView.swift */; };
+		A6D9953A2BC3103200F70C65 /* SoundOnOff.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D995362BC3103200F70C65 /* SoundOnOff.swift */; };
+		A6D9953B2BC3103200F70C65 /* artemisSoundTrack.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A6D995372BC3103200F70C65 /* artemisSoundTrack.m4a */; };
+		A6D9953C2BC3103200F70C65 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D995382BC3103200F70C65 /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6C5725F2BC5B9D00021D0DD /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		A6C572612BC5B9DD0021D0DD /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		A6C572632BC5BA240021D0DD /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
+		A6C572662BC5BA3D0021D0DD /* CharacterOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterOption.swift; sourceTree = "<group>"; };
+		A6C572682BC5BA4C0021D0DD /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		A6D995082BC2FA5E00F70C65 /* VoidPrincess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoidPrincess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6D9950B2BC2FA5E00F70C65 /* VoidPrincessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoidPrincessApp.swift; sourceTree = "<group>"; };
 		A6D9950D2BC2FA5E00F70C65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +58,10 @@
 		A6D995222BC2FA6000F70C65 /* VoidPrincessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoidPrincessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6D995262BC2FA6000F70C65 /* VoidPrincessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoidPrincessUITests.swift; sourceTree = "<group>"; };
 		A6D995282BC2FA6000F70C65 /* VoidPrincessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoidPrincessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6D995352BC3103200F70C65 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		A6D995362BC3103200F70C65 /* SoundOnOff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundOnOff.swift; sourceTree = "<group>"; };
+		A6D995372BC3103200F70C65 /* artemisSoundTrack.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = artemisSoundTrack.m4a; sourceTree = "<group>"; };
+		A6D995382BC3103200F70C65 /* PlaySound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +89,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6C5725C2BC5B9A60021D0DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A6C572662BC5BA3D0021D0DD /* CharacterOption.swift */,
+				A6C572682BC5BA4C0021D0DD /* Category.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6C5725D2BC5B9B00021D0DD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A6C572632BC5BA240021D0DD /* CharacterViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A6C5725E2BC5B9B50021D0DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6D9950D2BC2FA5E00F70C65 /* ContentView.swift */,
+				A6C5725F2BC5B9D00021D0DD /* CharacterView.swift */,
+				A6C572612BC5B9DD0021D0DD /* GridView.swift */,
+				A6D995352BC3103200F70C65 /* MenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A6D994FF2BC2FA5E00F70C65 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +141,13 @@
 			isa = PBXGroup;
 			children = (
 				A6D9950B2BC2FA5E00F70C65 /* VoidPrincessApp.swift */,
-				A6D9950D2BC2FA5E00F70C65 /* ContentView.swift */,
+				A6C5725C2BC5B9A60021D0DD /* Models */,
+				A6C5725D2BC5B9B00021D0DD /* ViewModels */,
+				A6C5725E2BC5B9B50021D0DD /* Views */,
+				A6D995382BC3103200F70C65 /* PlaySound.swift */,
+				A6D995362BC3103200F70C65 /* SoundOnOff.swift */,
 				A6D9950F2BC2FA5F00F70C65 /* Assets.xcassets */,
+				A6D995372BC3103200F70C65 /* artemisSoundTrack.m4a */,
 				A6D995112BC2FA5F00F70C65 /* Preview Content */,
 			);
 			path = VoidPrincess;
@@ -232,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6D995132BC2FA5F00F70C65 /* Preview Assets.xcassets in Resources */,
+				A6D9953B2BC3103200F70C65 /* artemisSoundTrack.m4a in Resources */,
 				A6D995102BC2FA5F00F70C65 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +309,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C572602BC5B9D00021D0DD /* CharacterView.swift in Sources */,
+				A6C572692BC5BA4C0021D0DD /* Category.swift in Sources */,
+				A6C572672BC5BA3D0021D0DD /* CharacterOption.swift in Sources */,
+				A6D9953C2BC3103200F70C65 /* PlaySound.swift in Sources */,
+				A6D9953A2BC3103200F70C65 /* SoundOnOff.swift in Sources */,
+				A6C572622BC5B9DD0021D0DD /* GridView.swift in Sources */,
+				A6C572642BC5BA240021D0DD /* CharacterViewModel.swift in Sources */,
 				A6D9950E2BC2FA5E00F70C65 /* ContentView.swift in Sources */,
+				A6D995392BC3103200F70C65 /* MenuView.swift in Sources */,
 				A6D9950C2BC2FA5E00F70C65 /* VoidPrincessApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,11 +485,11 @@
 				DEVELOPMENT_TEAM = L45GPKVRUG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +514,11 @@
 				DEVELOPMENT_TEAM = L45GPKVRUG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
